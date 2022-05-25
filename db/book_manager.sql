@@ -14,6 +14,7 @@ CREATE TABLE books (
     title VARCHAR,
     genre VARCHAR,
     author_id INTEGER NOT NULL,
-    FOREIGN KEY (author_id) REFERENCES authors (id)
+    FOREIGN KEY (author_id) 
+    REFERENCES authors (id)
 );
 

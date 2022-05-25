@@ -57,8 +57,10 @@ button {
 
 .menu {
     display: flex;
-    padding: 10px;
-    background-color: grey;
+    justify-content: flex-end;
+    padding: 16px;
+    margin: 16px;
+    background-color: dodgerblue;
     color: white;
 }
 
